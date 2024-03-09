@@ -1,0 +1,143 @@
+body {
+    margin: 20px;
+    background: url(pics/img4.webp);
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.balloon-container {
+    position: relative;
+    bottom: 0;
+    margin-top: 20px; /* Add some space between each balloon container */
+}
+
+.balloon {
+    display: inline-block;
+    width: 78px;
+    height: 88px;
+    border-radius: 80%;
+    position: relative;
+    box-shadow: inset -10px -10px 0 rgba(0, 0, 0, 0.07);
+    transition: transform 0.5s ease;
+    z-index: 10;
+    transform-origin: bottom center;
+    font-weight: bold;
+    font-family: cursive;
+    margin: 0 10px; /* Adjusted margin to create space between balloons */
+    line-height: 88px; /* Center the letter vertically */
+}
+
+.balloon1 {
+    animation: balloons1 3s ease forwards;
+    background-color: #ff5f5f;
+    color: #fff;
+    font-size: 58px;
+}
+
+.balloon2 {
+    animation: balloons2 3s ease forwards;
+    background-color: #8a2be2;
+    color: #fff;
+    font-size: 48px;
+}
+
+.balloon3 {
+    animation: balloons3 3s ease forwards;
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 38px;
+}
+
+.balloon4 {
+    animation: balloons4 3s ease forwards;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 38px;
+}
+
+.balloon5 {
+    animation: balloons5 3s ease forwards;
+    background-color: #f39c12;
+    color: #fff;
+    font-size: 38px;
+}
+
+@keyframes balloons1 {
+    0% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes balloons2 {
+    0% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes balloons3 {
+    0% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes balloons4 {
+    0% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes balloons5 {
+    0% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.BUTTON6CONTAINER {
+    margin-top: 30px; /* Add some space between the balloons and the button */
+}
+
+.BUTTON6CONTAINER button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white; /* White text */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.BUTTON6CONTAINER button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
